@@ -2,7 +2,7 @@ name: Build and Push Container Image
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   workflow_dispatch: # Allows manual trigger from the GitHub Actions UI
 
 env:
